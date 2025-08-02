@@ -110,16 +110,6 @@ Durante o desenvolvimento deste projeto, as seguintes premissas foram assumidas:
 - **Padrão strategy**: Assumi que se eu utilizasse o padrao de projeto strategy o codigo ficaria bem mais organizado
 - **Responsividade**: A interface foi projetada para funcionar em dispositivos desktop e mobile
 
-### 🔹 **Funcionalidades**
-- **Validação no frontend e backend**: Validações são feitas em ambas as camadas para melhor UX e segurança
-- **Tratamento de erros**: Implementação de tratamento básico de erros com mensagens amigáveis ao usuário
-- **Performance**: Priorização de simplicidade sobre otimizações avançadas de performance
-
-### 🔹 **Desenvolvimento**
-- **Ambiente de desenvolvimento**: Configurado para rodar localmente sem dependências externas
-- **Testes**: Foco em funcionalidade principal, com testes unitários básicos
-- **Documentação**: Código autodocumentado com comentários onde necessário
-
 ## 🏗️ Decisões de Projeto
 
 ### **Escolha das Tecnologias**
@@ -146,12 +136,6 @@ Port: 5173          →      Port: 8080
   Services          →      Services  
   State Management  →      DTOs/Models
 ```
-
-**Benefícios desta arquitetura:**
-- **Escalabilidade**: Frontend e backend podem evoluir independentemente
-- **Manutenibilidade**: Separação clara de responsabilidades
-- **Testabilidade**: Cada camada pode ser testada isoladamente
-- **Flexibilidade**: Possibilidade de trocar tecnologias em uma camada sem afetar a outra
 
 ### **Padrões de Desenvolvimento**
 
