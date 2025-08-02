@@ -6,8 +6,7 @@ Este projeto é uma aplicação full-stack desenvolvida com **Spring Boot** no b
 
 ### Backend
 - Java 21+
-- Spring Boot 3.x
-- Spring Web
+- Spring Boot
 - Maven
 
 ### Frontend
@@ -19,7 +18,7 @@ Este projeto é uma aplicação full-stack desenvolvida com **Spring Boot** no b
 
 Antes de executar o projeto, certifique-se de ter instalado:
 
-- **Java 17** ou superior
+- **Java 21** ou superior
 - **Node.js 18** ou superior
 - **Maven 3.6** ou superior
 - **Git**
@@ -108,7 +107,6 @@ Durante o desenvolvimento deste projeto, as seguintes premissas foram assumidas:
 - **Sem autenticação complexa**: Para simplificar o teste, não foi implementado sistema de login/autenticação
 - **Sem persistência de dados**: Os dados são mantidos em memória durante a execução da aplicação
 - **Padrão strategy**: Assumi que se eu utilizasse o padrao de projeto strategy o codigo ficaria bem mais organizado
-- **Responsividade**: A interface foi projetada para funcionar em dispositivos desktop e mobile
 
 ## 🏗️ Decisões de Projeto
 
@@ -146,14 +144,8 @@ Port: 5173          →      Port: 8080
 - **CORS configuration**: Configuração para permitir comunicação com o frontend
 
 **Frontend (React)**
-- **Functional components com Hooks**: Abordagem moderna do React
-- **Custom hooks**: Para lógica reutilizável
+- **Abordagem moderna do React**
 - **Component composition**: Componentes pequenos e focados
-- **API service layer**: Centralização das chamadas para o backend
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ## 👨‍💻 Autor
 
