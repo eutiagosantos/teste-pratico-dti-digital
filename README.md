@@ -58,7 +58,7 @@ java -jar target/*.jar
 
 1. **Abra um NOVO terminal** e navegue para o frontend:
 ```bash
-cd frontend
+cd frontend/my-app
 ```
 
 2. **Instale as dependências:**
